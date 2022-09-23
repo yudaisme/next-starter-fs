@@ -82,7 +82,7 @@ const Login = () => {
                             focus:outline-none
                             "
                         >
-                            Register
+                            Login
                         </button>
                     </div>
                 </form>

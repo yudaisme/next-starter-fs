@@ -13,6 +13,9 @@ const Dashboard = (props) => {
         if (!props.isAuth) {
             router.push('/')
         }
+        document.getElementById('menu-dashboard').classList.add('text-pink-500','hover:text-pink-600')
+        document.getElementById('menu-about').classList.remove('text-pink-500','hover:text-pink-600')
+        document.getElementById('menu-blog').classList.remove('text-pink-500','hover:text-pink-600')
     })
     return (
         <div>

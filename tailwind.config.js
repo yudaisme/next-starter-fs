@@ -9,6 +9,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      ...colors,
+    },
     extend: {
       minHeight: {
         "screen-75": "75vh",
